@@ -4,6 +4,7 @@ def turn_count(board)
     if slot == "X" || slot == "O"
       number_of_turn += 1
     end
+    number_of_turn
   end
   #number_of_turn
 end
