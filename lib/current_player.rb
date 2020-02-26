@@ -5,7 +5,7 @@ def turn_count(board)
       counter += 1
     end
   end
-  counter #why is counter variable required before the last end block?
+  counter #why is counter variable required before the last end block? compare to current_player
 end
 
 def current_player(board)
