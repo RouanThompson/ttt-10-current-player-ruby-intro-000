@@ -13,4 +13,6 @@ def current_player(number_of_turn)
     player = "X"
   else
     player = "O"
+  end
+  player
 end
