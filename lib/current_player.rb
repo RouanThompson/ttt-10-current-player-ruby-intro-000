@@ -1,8 +1,8 @@
 def turn_count(board)
-  number_of_turn = 0
+  counter = 0
   board.each do |slot|
     if slot == "X" || slot == "O"
-      number_of_turn += 1
+      counter += 1
     end
   end
   #number_of_turn #why is number_of_turn variable required before the last end block?
