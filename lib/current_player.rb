@@ -4,7 +4,7 @@ def turn_count(array)
     if slot == "X" || slot == "O"
       number_of_turn += 1
     else
-      next
+      number_of_turn = number_of_turn
     end
   end
 end
