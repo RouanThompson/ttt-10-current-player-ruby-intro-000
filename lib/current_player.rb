@@ -5,7 +5,7 @@ def turn_count(board)
       number_of_turn += 1
     end
   end
-  number_of_turn #why is number of turn required before the last end block?
+  number_of_turn #why is number_of_turn variable required before the last end block?
 end
 
 def current_player(board)
