@@ -15,5 +15,4 @@ def current_player(board)
   else
     player = "O"
   end
-  player
 end
